@@ -41,8 +41,8 @@ Developed for **GMF Investments**, it integrates **LSTM deep learning models** w
 ## 📥 Installation
 
 # Clone repository
-git clone https://github.com/dawit-senaber/gmf-time-series-forecasting.git
-cd gmf-time-series-forecasting
+- git clone https://github.com/dawit-senaber/gmf-time-series-forecasting.git
+- cd gmf-time-series-forecasting
 
 # Create virtual environment
 python -m venv gmf-env
@@ -73,8 +73,7 @@ python main.py
 
 Efficient Frontier:
 
-https://reports/figures/efficient_frontier.png
-
+https://github.com/dawit-senaber/gmf-time-series-forecasting/blob/main/reports/figures/efficient_frontier.png
 Optimal portfolios on the Efficient Frontier
 
 📂 Project Structure
