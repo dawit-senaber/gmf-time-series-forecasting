@@ -1,0 +1,11 @@
+# Global parameters
+TICKERS = ['TSLA', 'BND', 'SPY']
+START_DATE = '2015-07-01'
+END_DATE = '2025-08-12'  # Current date
+TRAIN_END = '2023-12-31'
+TEST_START = '2024-01-01'
+BACKTEST_START = '2024-08-01'
+BACKTEST_END = '2025-08-12'
+SEQ_LENGTH = 60  # for LSTM
+FORECAST_STEPS = 403  # 12 trading months
+RISK_FREE_RATE = 0.02  # Annual risk-free rate
