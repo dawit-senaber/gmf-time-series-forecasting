@@ -80,22 +80,28 @@ Optimal portfolios on the Efficient Frontier
 
 gmf-time-series-forecasting/
 ├── data/
-│   ├── raw/               # Raw financial data
-│   └── processed/         # Cleaned datasets
-├── models/                # Trained model artifacts
+│ ├── raw/ # Raw financial data
+│ └── processed/ # Cleaned datasets
+│
+├── models/ # Trained model artifacts
+│
 ├── reports/
-│   ├── figures/           # Visualizations
+│ ├── figures/ # Visualizations
+│ ├── interim_report.pdf # Task 1 report
+│ └── final_memo.pdf # Investment recommendation
+│
 ├── src/
-│   ├── data_loader.py     # Data acquisition
-│   ├── preprocessing.py   # Data cleaning
-│   ├── forecasting.py     # ARIMA/LSTM models
-│   ├── optimization.py    # Portfolio optimization
-│   ├── backtesting.py     # Strategy validation
-│   └── reporting.py       # PDF generation
-├── config.py              # Global parameters
-├── main.py                # Execution pipeline
-├── requirements.txt       # Dependencies
-└── README.md              # This document
+│ ├── data_loader.py # Data acquisition
+│ ├── preprocessing.py # Data cleaning
+│ ├── forecasting.py # ARIMA/LSTM models
+│ ├── optimization.py # Portfolio optimization
+│ ├── backtesting.py # Strategy validation
+│ └── reporting.py # PDF generation
+│
+├── config.py # Global parameters
+├── main.py # Execution pipeline
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 
 
 ⚙ Technical Specifications
