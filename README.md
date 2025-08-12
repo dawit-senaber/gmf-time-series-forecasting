@@ -76,7 +76,7 @@ Efficient Frontier:
 https://github.com/dawit-senaber/gmf-time-series-forecasting/blob/main/reports/figures/efficient_frontier.png
 Optimal portfolios on the Efficient Frontier
 
-📂 Project Structure
+📂 **Project Structure**
 
 gmf-time-series-forecasting/
 ├── data/
