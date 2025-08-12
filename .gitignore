@@ -1,7 +1,7 @@
 # Critical data files
 data/raw/
 data/processed/
-models/
+
 
 # Sensitive credentials
 .env
@@ -14,10 +14,6 @@ config_secret.py
 __pycache__/
 *.pyc
 
-# Reports (regenerate as needed)
-reports/figures/
-reports/interim_report.pdf
-reports/final_memo.pdf
 
 # Virtual environment
 gmf-env/
